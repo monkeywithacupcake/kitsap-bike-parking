@@ -13,6 +13,15 @@ You should be adding:
 
 There is now a CSV! Fill it in
 
+NAME - something unique
+ADDRESS - the address please
+DESC - what you think when you look at it
+VARIANT - STAPLE, WAVE, BOLLARD, GRID, DOUBLE
+SPACES - how many bikes
+COVERED - is it protected from rain?
+LNG - if you know the longitude (else, I will get it from address)
+LAT - if you know the latitude (else, I will get it from address)
+
 
 ------------
 
