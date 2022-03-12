@@ -18,9 +18,16 @@ Bike Parking Inventory so far:
 
 ## Bremerton
 
-I have a report of Cafe Corvo in Bremerton with bike parking, but I have not grabbed any information or a photo. Google Street view does not show it.
-CAFE CORVO 
-629 N. CALLOW AVE 
-BREMERTON, WA 98312
+
+* CAFE CORVO  629 N. CALLOW AVE BREMERTON, WA 98312
+ - I have a report of Cafe Corvo in Bremerton with bike parking, but I have not grabbed any information or a photo. Google Street view does not show it.
+
+## Silverdale
+
+* USPS 10855 Silverdale Way NW, Silverdale, WA 98383  
+ - Left of the entrance. Not visible while inside
+
+* The Trails 11066 Pacific Crest Pl Ste A150, Silverdale, WA 98383
+ - Between Old Navy and Sprouts. 
 
 
