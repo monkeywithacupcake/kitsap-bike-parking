@@ -11,10 +11,14 @@ You should be adding:
 (2) a description of the bike parking - size/covered/etc.
 (3) a picture (optional)
 
+There is now a CSV! Fill it in
+
 
 ------------
 
 Bike Parking Inventory so far:
+
+![Initial Map](/img/initialmap.png)
 
 ## Bremerton
 
