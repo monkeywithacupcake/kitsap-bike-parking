@@ -1,4 +1,10 @@
-NAME,ADDRESS,DESC,VARIANT,COVERED,SPACES,IMG
-USPS-SILVERDALE,"10855 Silverdale Way NW, Silverdale, WA 98383",Left of the entrance. Not visible while inside,GRID,NO,4,NA
-CAFE CORVO,"629 N. CALLOW AVE BREMERTON, WA 98312",NA,NA,NA,NA,NA
-THE TRAILS,"11066 Pacific Crest Pl Ste A150, Silverdale, WA 98383",Between Old Navy and Sprouts,GRID,NO,NA,NA
+NAME,ADDRESS,DESC,VARIANT,COVERED,SPACES,IMG,LNG,LAT
+USPS-SILVERDALE,"10855 Silverdale Way NW, Silverdale, WA 98383",Left of the entrance. Not visible while inside,WAVE,NO,7,USPS-Silverdale.jpg,-122.68542,47.66219
+CAFE CORVO,"629 N. CALLOW AVE BREMERTON, WA 98312",NA,NA,NA,NA,NA,-122.65347,47.56849
+THE TRAILS,"11066 Pacific Crest Pl Ste A150, Silverdale, WA 98383",Between Old Navy and Sprouts,GRID,NO,NA,NA,-122.69592,47.66311
+FRED MEYER,"5050 WA-303, Bremerton, WA 98311",By Fresh food entrance and Great Clips,WAVE,NO,3,Bremerton-Fred-Meyer.jpg,-122.62760,47.61009
+MCWILLIAMS PARK AND RIDE LOT,"SR 303 (Wheaton Way) and McWilliams, Bremerton",By covered bus stop,WAVE,NO,5,McWilliams-Park-And-Ride.jpg,122.62789,47.58957
+RIDGETOP MIDDLE SCHOOL,"10600 Hillsboro Dr NW, Silverdale, WA 98383",Left of entrance,GRID,NO,8,Ridgetop-Middle-School.jpg,-122.66827,47.65848
+WHEATON WAY TRANSIT CENTER,"3915 Wheaton Way, Bremerton, WA 98310",Near Main Sign - It’s Orange,BOLLARD,NO,6,NA,-122.63031,47.60073
+WALGREENS-SYLVAN WAY,"3333 Wheaton Way, Bremerton, WA 98310",Wheaton Way side of store,WAVE,NO,5,NA,-122.63025,47.59515
+MCDONALDS-WHEATON WAY,"3580 Wheaton Way, Bremerton, WA 98310",Left of entrance,STAPLE,NO,3,NA,-122.62889,47.59757

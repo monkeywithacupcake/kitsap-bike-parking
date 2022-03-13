@@ -27,15 +27,24 @@ LAT - if you know the latitude (else, I will get it from address)
 
 Bike Parking Inventory so far:
 
-![Initial Map](/img/initialmap.png)
+![Current Map](/img/map.png)
 
 ## Bremerton
-
 
 * CAFE CORVO  629 N. CALLOW AVE BREMERTON, WA 98312
    - I have a report of Cafe Corvo in Bremerton with bike parking, but I have not grabbed any information or a photo. Google Street view does not show it.
     - Covered: 
     - Spaces: 
+
+* MCDONALDS - Wheaton Way
+    - Covered: no
+    - Spaces: 3
+
+* Wheaton Way Transit Center
+
+* McWilliams Park And Ride
+
+* Sylvan/Wheaton Way Walgreens
 
 ## Silverdale
 
@@ -48,5 +57,7 @@ Bike Parking Inventory so far:
     - Between Old Navy and Sprouts 
     - Covered: no
     - Spaces: 4
+
+* Ridgetop Middle School
 
 
