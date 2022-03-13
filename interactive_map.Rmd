@@ -1,0 +1,39 @@
+---
+title: "Kitsap Bike Parking Map"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+dpath <- "https://raw.githubusercontent.com/monkeywithacupcake/kitsap-bike-parking/main/kitsap-bike-parking.csv"
+ipath <- "https://raw.githubusercontent.com/monkeywithacupcake/kitsap-bike-parking/main/img/"
+
+bikeparking <- read_csv(dpath)
+
+
+bikeparking <- bikeparking %>%
+  mutate(CIMG = if_else(!is.na(IMG), IMG, "no_img.png"),
+         POPUP  = paste(sep = "<br/>", 
+                        paste0("<b>",NAME,"</b>"),
+                        paste("Variant:", VARIANT),
+                        paste("Covered?:", COVERED),
+                        paste0("<img src = '", ipath, CIMG, "' width = 200>") #img
+                        )
+         )
+```
+
+This map shows locations of bike parking in Kitsap County, Washington. If you know of bike parking that is missing, submit an issue on github [kitsap-bike-parking](https://github.com/monkeywithacupcake/kitsap-bike-parking)
+
+```{r}
+library(leaflet)
+leaflet(bikeparking) %>% addTiles(
+  options = tileOptions(minZoom = 9, maxZoom = 17)
+) %>%
+  addCircleMarkers(data = bikeparking, lng = ~LNG, lat = ~LAT, color = "#301934",
+                   label = ~NAME, radius = 7,  fillOpacity = 0.7, fillColor = "#D8BFD8",
+                   popup = ~POPUP) 
+```
+
+Data are from `r dpath`.

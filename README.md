@@ -27,37 +27,8 @@ LAT - if you know the latitude (else, I will get it from address)
 
 Bike Parking Inventory so far:
 
+See the live map here: [Interactive Map](https://rpubs.com/monkeywithacupcake/kitsap-bike-parking)
+
 ![Current Map](/img/map.png)
-
-## Bremerton
-
-* CAFE CORVO  629 N. CALLOW AVE BREMERTON, WA 98312
-   - I have a report of Cafe Corvo in Bremerton with bike parking, but I have not grabbed any information or a photo. Google Street view does not show it.
-    - Covered: 
-    - Spaces: 
-
-* MCDONALDS - Wheaton Way
-    - Covered: no
-    - Spaces: 3
-
-* Wheaton Way Transit Center
-
-* McWilliams Park And Ride
-
-* Sylvan/Wheaton Way Walgreens
-
-## Silverdale
-
-* USPS 10855 Silverdale Way NW, Silverdale, WA 98383  
-    - Left of the entrance. Not visible while inside
-    - Covered: no
-    - Spaces: 4
-
-* The Trails 11066 Pacific Crest Pl Ste A150, Silverdale, WA 98383
-    - Between Old Navy and Sprouts 
-    - Covered: no
-    - Spaces: 4
-
-* Ridgetop Middle School
 
 
