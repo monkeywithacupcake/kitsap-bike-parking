@@ -6,15 +6,16 @@ date: "`r Sys.Date()`"
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+
+#kitsap-bike-parking
+#Kitsap Bike Parking Interactive Map
+#a crowdsourced map of places to park your bike in Kitsap County Washington
+
 library(tidyverse)
 dpath <- "https://raw.githubusercontent.com/monkeywithacupcake/kitsap-bike-parking/main/kitsap-bike-parking.csv"
 ipath <- "https://raw.githubusercontent.com/monkeywithacupcake/kitsap-bike-parking/main/img/"
 
 bikeparking <- read_csv(dpath)
-
-#kitsap-bike-parking
-#Kitsap Bike Parking Interactive Map
-#a crowdsourced map of places to park your bike in Kitsap County Washington
 
 df <- bikeparking %>%
   mutate(CIMG = if_else(!is.na(IMG), IMG, "no_img.png"),
@@ -27,21 +28,32 @@ df <- bikeparking %>%
          )
 ```
 
-This map shows locations of bike parking in Kitsap County, Washington. If you know of bike parking that is missing, submit an issue on github [kitsap-bike-parking](https://github.com/monkeywithacupcake/kitsap-bike-parking)
+This map shows locations of bike parking in Kitsap County, Washington. We have `r nrow(bikeparking)` bike racks identified so far.
+
+If you know of bike parking that is missing, submit an issue on github [kitsap-bike-parking](https://github.com/monkeywithacupcake/kitsap-bike-parking)
 
 ```{r}
 library(leaflet)
 leaflet(df) %>% addTiles(
   options = tileOptions(minZoom = 9, maxZoom = 17)
 ) %>%
-  addMarkers(lng = ~LNG, lat = ~LAT, 
+  #addMarkers(lng = ~LNG, lat = ~LAT, 
              #popup = ~POPUP,
-             clusterOptions = markerClusterOptions()
-             ) %>%
+  #           clusterOptions = markerClusterOptions()
+  #           ) %>%
   addCircleMarkers(lng = ~LNG, lat = ~LAT, color = "#301934",
                    #label = ~NAME, 
+                   clusterOptions = markerClusterOptions(
+                     maxClusterRadius = 30,
+                     spiderLegPolylineOptions = list(weight = 1.5, color = "#222", opacity = 0.0),
+                     zoomToBoundsOnClick = TRUE),
                    radius = 7,  fillOpacity = 0.7, fillColor = "#D8BFD8",
                    popup = ~POPUP) 
+```
+
+```{r}
+library(formattable)
+formattable(select(bikeparking, -IMG, -LAT, -LNG))
 ```
 
 Data are from `r dpath`.
