@@ -1,6 +1,6 @@
 NAME,ADDRESS,DESC,VARIANT,COVERED,SPACES,IMG,LNG,LAT
 USPS-SILVERDALE,"10855 Silverdale Way NW, Silverdale, WA 98383",Left of the entrance. Not visible while inside,WAVE,NO,7,USPS-Silverdale.jpg,-122.68542,47.66219
-CAFE CORVO,"629 N. CALLOW AVE BREMERTON, WA 98312",NA,NA,NA,NA,NA,-122.65347,47.56849
+CAFE CORVO,"629 N. CALLOW AVE BREMERTON, WA 98312",Near Entrance,BOLLARD,NO,2,NA,-122.65347,47.56849
 THE TRAILS - SPROUTS,"11066 Pacific Crest Pl Ste A150, Silverdale, WA 98383",Between Old Navy and Sprouts,WAVE,NO,4,The-Trails-Sprouts.jpg,-122.6945,47.6634
 FRED MEYER,"5050 WA-303, Bremerton, WA 98311",By Fresh food entrance and Great Clips,WAVE,NO,3,Bremerton-Fred-Meyer.jpg,-122.6276,47.61009
 MCWILLIAMS PARK AND RIDE LOT,"SR 303 (Wheaton Way) and McWilliams, Bremerton",By covered bus stop,WAVE,NO,5,McWilliams-Park-And-Ride.jpg,-122.62798,47.62183
@@ -12,3 +12,6 @@ Maynard's East,"2233 NW Bucklin Hill Rd, Silverdale, WA 98383","At the East entr
 Maynard's West,"2251 NW Bucklin Hill Rd, Silverdale, WA 98383",By the front entrance,WAVE,NO,3,Maynards-Silverdale-West.jpg,-122.68081,47.65044
 THE TRAILS - HOMEGOODS,"11066 Pacific Crest Pl Ste A100, Silverdale, WA 98383",To the right of the entrance by the road to the back,BOLLARD,NO,3,NA,-122.69592,47.66304
 WILCO-TRUE VALUE,"4330 Wheaton Way, Bremerton, WA 98310",To the right of the entrance past the carts,WAVE,YES,3,Bremerton-Wilco.jpg,-122.62704,47.60595
+SAFEWAY - West Bremerton,"900 N Callow Ave, Bremerton, WA 98312","Some near front, some on side near Callow",WAVE,YES,22,NA,-122.6913572,47.5715293
+Kitsap Key and Bike,"306 N Callow Ave, Bremerton, WA 98312","Near door, only during open hours",GRID,YES,4,NA,-122.6552619,47.5658493
+Ferry Terminal,"100 Washington Ave, Bremerton, WA 98337",Lower level near foot ferry entrance,BOLLARD,YES,30,NA,-122.624654,47.562583
