@@ -53,7 +53,7 @@ leaflet(df) %>% addTiles(
 
 ```{r}
 library(formattable)
-formattable(select(bikeparking, -IMG, -LAT, -LNG))
+formattable(arrange(select(bikeparking, -IMG, -LAT, -LNG), NAME))
 ```
 
 Data are from `r dpath`.
