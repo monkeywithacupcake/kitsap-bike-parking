@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 library(tidyverse)
 dpath <- "https://raw.githubusercontent.com/monkeywithacupcake/kitsap-bike-parking/main/kitsap-bike-parking.csv"
-ipath <- "https://raw.githubusercontent.com/monkeywithacupcake/kitsap-bike-parking/main/img/"
+ipath <- "https://raw.githubusercontent.com/monkeywithacupcake/kitsap-bike-parking/main/img/racks/"
 
 bikeparking <- read_csv(dpath)
 

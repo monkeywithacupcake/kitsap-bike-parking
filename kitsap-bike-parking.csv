@@ -2,14 +2,31 @@ NAME,ADDRESS,DESC,VARIANT,COVERED,SPACES,IMG,LNG,LAT
 USPS-SILVERDALE,"10855 Silverdale Way NW, Silverdale, WA 98383",Left of the entrance. Not visible while inside,WAVE,NO,7,USPS-Silverdale.jpg,-122.68542,47.66219
 CAFE CORVO,"629 N. CALLOW AVE BREMERTON, WA 98312",NA,NA,NA,NA,NA,-122.65347,47.56849
 THE TRAILS - SPROUTS,"11066 Pacific Crest Pl Ste A150, Silverdale, WA 98383",Between Old Navy and Sprouts,WAVE,NO,4,The-Trails-Sprouts.jpg,-122.6945,47.6634
-FRED MEYER,"5050 WA-303, Bremerton, WA 98311",By Fresh food entrance and Great Clips,WAVE,NO,3,Bremerton-Fred-Meyer.jpg,-122.6276,47.61009
+FRED MEYER - BREMERTON NORTH,"5050 WA-303, Bremerton, WA 98311",By Fresh food entrance and Great Clips,WAVE,NO,3,Fred Meyer Bremerton North.jpg,-122.6276,47.61009
 MCWILLIAMS PARK AND RIDE LOT,"SR 303 (Wheaton Way) and McWilliams, Bremerton",By covered bus stop,WAVE,NO,5,McWilliams-Park-And-Ride.jpg,-122.62798,47.62183
 RIDGETOP MIDDLE SCHOOL,"10600 Hillsboro Dr NW, Silverdale, WA 98383",Left of entrance,GRID,NO,8,Ridgetop-Middle-School.jpg,-122.66827,47.65848
-WHEATON WAY TRANSIT CENTER,"3915 Wheaton Way, Bremerton, WA 98310",Near Main Sign - It’s Orange,BOLLARD,NO,6,NA,-122.63031,47.60073
-WALGREENS-SYLVAN WAY,"3333 Wheaton Way, Bremerton, WA 98310",Wheaton Way side of store,WAVE,NO,5,NA,-122.63025,47.59515
-MCDONALDS-WHEATON WAY,"3580 Wheaton Way, Bremerton, WA 98310",Left of entrance,STAPLE,NO,3,NA,-122.62889,47.59757
+WHEATON WAY TRANSIT CENTER MAIN,"3915 Wheaton Way, Bremerton, WA 98310",Near Main Sign - It’s Orange,BOLLARD,NO,8,Wheaton Way Transit Center Main.jpg,-122.63031,47.60073
+WALGREENS-SYLVAN WAY,"3333 Wheaton Way, Bremerton, WA 98310",Wheaton Way side of store,WAVE,NO,5,Walgreens - 3333 Wheaton Way.jpg,-122.63025,47.59515
+MCDONALDS-WHEATON WAY,"3580 Wheaton Way, Bremerton, WA 98310",Left of entrance,STAPLE,NO,3,McDonalds Wheaton Way.jpg,-122.62889,47.59757
 Maynard's East,"2233 NW Bucklin Hill Rd, Silverdale, WA 98383","At the East entrance, close to the Social Security office",WAVE,NO,3,Maynards-Silverdale-East.jpg,-122.67912,47.65048
 Maynard's West,"2251 NW Bucklin Hill Rd, Silverdale, WA 98383",By the front entrance,WAVE,NO,3,Maynards-Silverdale-West.jpg,-122.68081,47.65044
 THE TRAILS - HOMEGOODS,"11066 Pacific Crest Pl Ste A100, Silverdale, WA 98383",To the right of the entrance by the road to the back,BOLLARD,NO,3,NA,-122.69592,47.66304
 WILCO-TRUE VALUE,"4330 Wheaton Way, Bremerton, WA 98310",To the right of the entrance past the carts,WAVE,YES,3,Bremerton-Wilco.jpg,-122.62704,47.60595
 REI-SILVERDALE,"10903 NW Myhre Rd, Silverdale, WA 98383",To the left of the entrance,WAVE,YES,5,REI-Silverdale.jpg,-122.6888,47.6625
+WHEATON WAY TRANSIT CENTER - STALL 8,"3915 Wheaton Way, Bremerton, WA 98310",Just next to covered station 8,BOLLARD,NO,8,Wheaton Way Transit Center Stall 8.jpg,-122.63031,47.60073
+BREMERTON CITY HALL,"Norm Dicks Government Center, 345 6th St #600, Bremerton, WA 98337",bottom of stairs,BOLLARD,NO,2,Bremerton City Hall.jpg,-122.62585,47.56694
+PARK AVE at 5th,"418 Park Ave, Bremerton, WA 98337",on sidewalk on Park - foreground of picture,STAPLE,NO,2,Park and 5th Staple.jpg,-122.63025,47.56592
+Kitsap Community Food Coop,"421 Park Ave, Bremerton, WA 98337",On 5th street side,STAPLE,NO,2,Kitsap Community Food Coop.jpg,-122.63019,47.56655
+LOWES - BREMERTON,"5600 WA-303, Bremerton, WA 98311",left of entrance,WAVE,NO,5,Lowes - Bremerton.jpg,-122.62589,47.61328
+PETCO - BREMERTON,"4209 Wheaton Way, Bremerton, WA 98310",right of entrance,WAVE,YES,11,"Petco - 4209 Wheaton Way, Bremerton, WA 98310.jpg",-122.63102,47.60479
+Speedway 2808 Wheaton Way,"2808 Wheaton Way, Bremerton, WA 98310",backside of shop,GRID,NO,22,Speedway 2808 Wheaton Way.jpg,-122.62845,47.58869
+GOODWILL WHEATON WAY - UNCOVERED WAVE,"4209 Wheaton Way, Bremerton, WA 98310",left side of store,WAVE,NO,11,Goodwill - 4209 Wheaton Way uncovered wave.jpg,-122.62789,47.58957
+GOODWILL WHEATON WAY - COVERED GRID,"4209 Wheaton Way, Bremerton, WA 98310",left side of store,GRID,YES,4,Goodwill - 4209 Wheaton Way covered grid.jpg,-122.62788,47.58955
+BREMERTON MUNICIPAL COURT,"550 Park Ave, Bremerton, WA 98337",left side of entrance,GRID,NO,3,Municipal Court - 550 Park Ave - Bremerton.jpg,-122.63,47.5671
+STARBUCKS - KITSAP BANK WHEATON WAY,"3425 Wheaton Way, Bremerton, WA 98310",northeast side of entrance by Starbucks,STAPLE,NO,6,Starbucks - Kitsap Bank - 3425 Wheaton Way.jpg,-122.62995,47.59613
+KITSAP BANK PACIFIC AVE,"607 Pacific Ave, Bremerton, WA 98337","side by benches - looks angled, and one side unusable",GRID,NO,8,Kitsap Bank - 607 Pacific Ave.jpg,-122.6277,47.5676
+KRL - SYLVAN WAY,"1301 Sylvan Way, Bremerton, WA 98310",up sidewalk to main entrance - can't see from parking lot,CRADLE,NO,6,KRL Sylvan Way Library.jpg,-122.62499,47.59501
+TRACYTON MOVIE HOUSE,"1520 NE Riddell Rd, Bremerton, WA 98310",corner of shopping plaza sidewalk - left of entrance,WAVE,NO,8,Tracyton Movie House.jpg,-122.63192,47.60755
+SAFEWAY WHEATON MCWILLIAMS,"1401 NE McWilliams Rd, Bremerton, WA 98311",right of entrance - your back tire might be covered,GRID,NO,3,Safeway - Wheaton McWilliams Bremerton.jpg,-122.63082,47.62071
+SAARS SUPERMARKET WHEATON,"2900 Wheaton Way, Bremerton, WA 98310",right of entrance,WAVE,NO,5,Saars Supermarket - Wheaton Way.jpg,-122.62789,47.58957
+SEASIDE CHURCH BREMERTON," 1317 Sheldon Blvd, Bremerton, WA 98337",right of entrance,WAVE,NO,3,Seaside Church - Bremerton.jpg,-122.6295,47.57331
