@@ -12,8 +12,11 @@ ipath <- "https://raw.githubusercontent.com/monkeywithacupcake/kitsap-bike-parki
 
 bikeparking <- read_csv(dpath)
 
+#kitsap-bike-parking
+#Kitsap Bike Parking Interactive Map
+#a crowdsourced map of places to park your bike in Kitsap County Washington
 
-bikeparking <- bikeparking %>%
+df <- bikeparking %>%
   mutate(CIMG = if_else(!is.na(IMG), IMG, "no_img.png"),
          POPUP  = paste(sep = "<br/>", 
                         paste0("<b>",NAME,"</b>"),
@@ -28,11 +31,16 @@ This map shows locations of bike parking in Kitsap County, Washington. If you kn
 
 ```{r}
 library(leaflet)
-leaflet(bikeparking) %>% addTiles(
+leaflet(df) %>% addTiles(
   options = tileOptions(minZoom = 9, maxZoom = 17)
 ) %>%
-  addCircleMarkers(data = bikeparking, lng = ~LNG, lat = ~LAT, color = "#301934",
-                   label = ~NAME, radius = 7,  fillOpacity = 0.7, fillColor = "#D8BFD8",
+  addMarkers(lng = ~LNG, lat = ~LAT, 
+             #popup = ~POPUP,
+             clusterOptions = markerClusterOptions()
+             ) %>%
+  addCircleMarkers(lng = ~LNG, lat = ~LAT, color = "#301934",
+                   #label = ~NAME, 
+                   radius = 7,  fillOpacity = 0.7, fillColor = "#D8BFD8",
                    popup = ~POPUP) 
 ```
 
