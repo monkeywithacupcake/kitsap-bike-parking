@@ -13,14 +13,14 @@ You should be adding:
 
 There is now a CSV! Fill it in
 
-NAME - something unique
-ADDRESS - the address please
-DESC - what you think when you look at it
-VARIANT - STAPLE, WAVE, BOLLARD, GRID, DOUBLE
-SPACES - how many bikes
-COVERED - is it protected from rain?
-LNG - if you know the longitude (else, I will get it from address)
-LAT - if you know the latitude (else, I will get it from address)
+ - NAME - something unique
+ - ADDRESS - the address please
+ - DESC - what you think when you look at it
+ - VARIANT - STAPLE, WAVE, BOLLARD, GRID, DOUBLE
+ - SPACES - how many bikes
+ - COVERED - is it protected from rain?
+ - LNG - if you know the longitude (else, I will get it from address)
+ - LAT - if you know the latitude (else, I will get it from address)
 
 
 ------------
@@ -29,6 +29,6 @@ Bike Parking Inventory so far:
 
 See the live map here: [Interactive Map](https://rpubs.com/monkeywithacupcake/kitsap-bike-parking)
 
-![Current Map](/img/map.png)
+See the live map on Google Maps as a layer [Google Map Layer](https://www.google.com/maps/d/edit?mid=1S3-OBrcdakhDyGiIRrpsmM1ROB5nO2Ln&usp=sharing)
 
 
