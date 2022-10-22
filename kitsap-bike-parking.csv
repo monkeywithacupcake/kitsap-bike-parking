@@ -32,7 +32,7 @@ SAARS SUPERMARKET WHEATON,"2900 Wheaton Way, Bremerton, WA 98310",right of entra
 SEASIDE CHURCH BREMERTON,"1317 Sheldon Blvd, Bremerton, WA 98337",right of entrance,WAVE,NO,3,Seaside Church - Bremerton.jpg,-122.6295,47.57331
 FRED MEYER - BREMERTON SOUTH,"5050 WA-303, Bremerton, WA 98311",near Panda Inn,WAVE,NO,3,Fred Meyer Bremerton South.jpg,-122.62761,47.61008
 SAFEWAY - WEST BREMERTON,"900 N Callow Ave, Bremerton, WA 98312","Some near front, some on side near Callow",WAVE,YES,22,NA,-122.65273,47.57011
-KITSAP KEY AND BIKE,"306 N Callow Ave, Bremerton, WA 98312","Near door, only during open hours",GRID,YES,4,NA,-122.6552619,47.565849299999996
+KITSAP KEY AND BIKE,"306 N Callow Ave, Bremerton, WA 98312","Near door, only during open hours",GRID,YES,4,NA,-122.6552619,47.565849300000004
 BREMERTON FERRY TERMINAL,"100 Washington Ave, Bremerton, WA 98337",Lower level near foot ferry entrance,BOLLARD,YES,30,NA,-122.624654,47.562583
 TARGET SILVERDALE,"3201 NW Randall Way, Silverdale, WA 98383",to the right of entrance,WAVE,NO,4,Target Silverdale.jpg,-122.69434,47.65781
 ROUND TABLE SILVERDALE,"3276 NW Plaza Rd #101, Silverdale, WA 98383",right out front,GRID,NO,2,Round Table Silverdale.jpg,-122.69459,47.65693
@@ -68,3 +68,4 @@ KRL MANCHESTER,"8067 E Main St, Manchester, WA 98353",Left of Entrance,BOLLARD,N
 MANCHESTER STORMWATER PARK,"8080 Main St E, Port Orchard, WA 98366",Main Street Side near dock,BOLLARD,NO,8,Manchester Stormwater Park.jpg,-122.54432,47.55567
 MANCHESTER POMEROY PARK,"9003 E Main St, Port Orchard, WA 98366",behind Manchester sign,CUSTOM,NO,4,Manchester Pomeroy Park.jpg,-122.54336,47.55589
 CENTRAL KITSAP MIDDLE SCHOOL,"3850 NW Anderson Hill Rd, Silverdale, WA 9838",Right of Middle School Entrance,BOLLARD,NO,20,CKMS.jpg,-122.69879,47.65454
+HASELWOOD YMCA,"3909 NW Randall Way, Silverdale, WA 98383",Right of Entrance,WAVE,NO,14,HaselwoodYMCA.jpg,-122.69484,47.65309
