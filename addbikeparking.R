@@ -5,13 +5,13 @@ library(tidyverse)
 library(mapboxapi)
 
 
-newaddress <- "10444 Silverdale Way NW, Silverdale, WA 98383"
-newname <-"MCDONALDS SILVERDALE"
-newimage <- "McDonalds Silverdale.jpg" # NA if none
-newdesc <- "Silverdale Way side front"
-newvariant <- "STAPLE" #VARIANT GRID WAVE BOLLARD STAPLE CUSTOM
-newcovered <- "NO" #YESNO
-newspaces <- 1 # number
+newaddress <- "10315 Silverdale Way NW, Silverdale, WA 98383"
+newname <-"WINCO SILVERDALE"
+newimage <- "Winco Silverdale.jpg" # NA if none
+newdesc <- "Kitsap Mall Blvd Side"
+newvariant <- "WAVE" #VARIANT GRID WAVE BOLLARD STAPLE CUSTOM
+newcovered <- "YES" #YESNO
+newspaces <- 16 # number
 
 # read it in
 bikeparking <- read_csv("~/Documents/kitsap-bike-parking/kitsap-bike-parking.csv") 
