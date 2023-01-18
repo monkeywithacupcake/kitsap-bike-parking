@@ -32,6 +32,9 @@ bikeparking <- bikeparking %>%
 write_csv(bikeparking, file="~/Documents/kitsap-bike-parking/kitsap-bike-parking.csv")
 
 
+bikeparking %>%
+  group_by(COVERED) %>%
+  summarize(SPACES = sum(SPACES))
 
 # mapbox_map <- leaflet() %>%
 #   addMapboxTiles(style_id = "light-v9",
