@@ -5,13 +5,13 @@ library(tidyverse)
 library(mapboxapi)
 
 
-newaddress <- "21215 Olhava Way NW, Poulsbo, WA 98370"
-newname <-"WINGSTOP POULSBO"
-newimage <- "Wingstop Poulsbo.jpg" # NA if none
-newdesc <- "On sidewalk to right of store"
-newvariant <- "GRID" #VARIANT GRID WAVE BOLLARD STAPLE CUSTOM
-newcovered <- "YES" #YESNO
-newspaces <- 6 # number
+newaddress <- "19245 10th Ave NE, Poulsbo, WA 98370"
+newname <-"SAFEWAY POULSBO"
+newimage <- "Safeway Poulsbo.jpg" # NA if none
+newdesc <- "All the way to the right of store"
+newvariant <- "WAVE" #VARIANT GRID WAVE BOLLARD STAPLE CUSTOM
+newcovered <- "NO" #YESNO
+newspaces <- 4 # number
 
 # read it in
 bikeparking <- read_csv("~/Documents/kitsap-bike-parking/kitsap-bike-parking.csv") 
