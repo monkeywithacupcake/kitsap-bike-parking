@@ -5,16 +5,16 @@ library(tidyverse)
 library(mapboxapi)
 
 
-newaddress <- "23961 WA-3, Belfair, WA 98528"
-newname <-"SAFEWAY BELFAIR"
-newimage <- "Safeway Belfair.jpg" # NA if none
-newdesc <- "To the left of entrance by Devita"
-newvariant <- "OTHER" #VARIANT GRID WAVE BOLLARD STAPLE CUSTOM
-newcovered <- "YES" #YESNO
-newspaces <- 4 # number
+newaddress <- "731 Bethel Ave, Port Orchard, WA 98366"
+newname <-"BETHEL GRAVITY COFFEE"
+newimage <- "Bethel Gravity Coffee.jpg" # NA if none
+newdesc <- "On the south side"
+newvariant <- "WAVE" #VARIANT GRID WAVE BOLLARD STAPLE CUSTOM
+newcovered <- "NO" #YESNO
+newspaces <- 2 # number
 
 # read it in
-bikeparking <- read_csv("~/Documents/kitsap-bike-parking/kitsap-bike-parking.csv") 
+bikeparking <- read_csv("./kitsap-bike-parking.csv") 
 
 # add the stuff
 bikeparking <- bikeparking %>%
@@ -29,7 +29,7 @@ bikeparking <- bikeparking %>%
           LAT = mb_geocode(newaddress)[2]
   )
 
-write_csv(bikeparking, file="~/Documents/kitsap-bike-parking/kitsap-bike-parking.csv")
+write_csv(bikeparking, file="./kitsap-bike-parking.csv")
 
 
 bikeparking %>%
