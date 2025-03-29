@@ -6,26 +6,13 @@ date: "`r Sys.Date()`"
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-
+source("./functions/bike_parking_functions.R")
 #kitsap-bike-parking
 #Kitsap Bike Parking Interactive Map
 #a crowdsourced map of places to park your bike in Kitsap County Washington
+dpath <- get_bike_parking_path(local = FALSE)
+bikeparking <- get_bike_parking_data()
 
-library(tidyverse)
-dpath <- "https://raw.githubusercontent.com/monkeywithacupcake/kitsap-bike-parking/main/kitsap-bike-parking.csv"
-ipath <- "https://raw.githubusercontent.com/monkeywithacupcake/kitsap-bike-parking/main/img/racks/"
-
-bikeparking <- read_csv(dpath)
-
-df <- bikeparking %>%
-  mutate(CIMG = if_else(!is.na(IMG), IMG, "no_img.png"),
-         POPUP  = paste(sep = "<br/>", 
-                        paste0("<b>",NAME,"</b>"),
-                        paste("Variant:", VARIANT),
-                        paste("Covered?:", COVERED),
-                        paste0("<img src = '", ipath, CIMG, "' width = 200>") #img
-                        )
-         )
 ```
 
 This map shows locations of bike parking in Kitsap County, Washington. We have `r nrow(bikeparking)` bike racks identified so far.
@@ -33,27 +20,11 @@ This map shows locations of bike parking in Kitsap County, Washington. We have `
 If you know of bike parking that is missing, submit an issue on github [kitsap-bike-parking](https://github.com/monkeywithacupcake/kitsap-bike-parking)
 
 ```{r}
-library(leaflet)
-leaflet(df) %>% addTiles(
-  options = tileOptions(minZoom = 9, maxZoom = 17)
-) %>%
-  #addMarkers(lng = ~LNG, lat = ~LAT, 
-             #popup = ~POPUP,
-  #           clusterOptions = markerClusterOptions()
-  #           ) %>%
-  addCircleMarkers(lng = ~LNG, lat = ~LAT, color = "#301934",
-                   #label = ~NAME, 
-                   clusterOptions = markerClusterOptions(
-                     maxClusterRadius = 30,
-                     spiderLegPolylineOptions = list(weight = 1.5, color = "#222", opacity = 0.0),
-                     zoomToBoundsOnClick = TRUE),
-                   radius = 7,  fillOpacity = 0.7, fillColor = "#D8BFD8",
-                   popup = ~POPUP) 
+get_leaflet_bikeparking(bikeparking)
 ```
 
 ```{r}
-library(formattable)
-formattable(arrange(select(bikeparking, -IMG, -LAT, -LNG), NAME))
+get_pretty_bike_table(bikeparking)
 ```
 
 Data are from `r dpath`.

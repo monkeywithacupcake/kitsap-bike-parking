@@ -16,5 +16,7 @@ new_bikeparking <- add_new(new_row = new_row)
 stop() # make sure that you are satisfied before saving
 save_bike_parking_data(new_bikeparking)
 
+# now go update the interactive_map.Rmd and publish
+
 
 

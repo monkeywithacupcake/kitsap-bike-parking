@@ -93,3 +93,47 @@ get_bike_parking_data <- function(local = TRUE) {
 save_bike_parking_data <- function(bikeparking){
   readr::write_csv(bikeparking, file="./kitsap-bike-parking.csv")
 }
+
+get_mapable_bike_parking_data <- function(bikeparking) {
+  ipath <- get_rack_image_path(local = FALSE)
+  df <- bikeparking |>
+    dplyr::mutate(CIMG = dplyr::if_else(!is.na(IMG), IMG, "no_img.png"),
+           POPUP  = paste(sep = "<br/>", 
+                          paste0("<b>",NAME,"</b>"),
+                          paste("Variant:", VARIANT),
+                          paste("Covered?:", COVERED),
+                          paste0("<img src = '", ipath, CIMG, "' width = 200>") #img
+           )
+    )
+  return(df)
+}
+
+get_leaflet_bikeparking <- function(bikeparking) {
+  df <- get_mapable_bike_parking_data(bikeparking)
+  
+  library(leaflet)
+  leaflet(df) %>% addTiles(options = tileOptions(minZoom = 9, maxZoom = 17)) %>%
+    addCircleMarkers(
+      lng = ~ LNG,
+      lat = ~ LAT,
+      color = "#301934",
+      clusterOptions = markerClusterOptions(
+        maxClusterRadius = 30,
+        spiderLegPolylineOptions = list(
+          weight = 1.5,
+          color = "#222",
+          opacity = 0.0
+        ),
+        zoomToBoundsOnClick = TRUE
+      ),
+      radius = 7,
+      fillOpacity = 0.7,
+      fillColor = "#D8BFD8",
+      popup = ~ POPUP
+    )
+}
+
+get_pretty_bike_table <- function(bikeparking){
+  library(formattable)
+  formattable(dplyr::arrange(dplyr::select(bikeparking, -IMG, -LAT, -LNG), NAME))
+}
