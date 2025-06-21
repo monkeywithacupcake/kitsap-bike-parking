@@ -50,8 +50,7 @@ create_new <- function(name, address, desc = NA,
 
 add_new <- function(new_row){
   bikeparking <- get_bike_parking_data(local = TRUE)
-  bikeparking <- bikeparking %>%
-    tibble::add_row(new_row)
+  bikeparking <- tibble::add_row(bikeparking, new_row)
   return(bikeparking)
 }
 
